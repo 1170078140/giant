@@ -1,0 +1,86 @@
+/*1. 登陆页面*/
+.login .main{height: 749px;background: url(../images/login_banner.jpg) no-repeat center top; }
+.login .inner{position: relative;}
+.login .loginWrap{padding: 30px 20px;background-color: #f6f4f4;position: absolute;right: 0;top: 137px;}
+.login .con{padding: 0 13px;width: 382px;height: 337px;}
+.login .title{width: 100%;padding: 20px 0;height: 30px;}
+.login .title span{padding: 0 47px;height: 30px;line-height: 30px;display: inline-block;vertical-align: 5px;font-size: 24px;color: #666;cursor: pointer;}
+.login  .ewm{position: relative;}
+.login  .ewm i{position: absolute;top: 0;right: 0;width: 30px;height: 30px;background-image: url(../images/login_icon1_03.png);background-size: cover;}
+.login  .line{width: 1px;height: 30px;background-color: #ccc;display: inline-block;}
+.login .input{position: relative;margin-top: 20px;}
+.login .input i{position: absolute;left: 14px;top: 12px;width: 22px;height: 26px;display: inline-block;}
+.login .main input{width: 300px;height: 50px;background-color: #e5e5e5;color: #807e7e;font-size: 18px;padding-left: 62px;padding-right: 20px;}
+.login .name i{background-image: url(../images/login_icon3_03.png);}
+.login .word i{background-image: url(../images/login_icon2_07.png);}
+.login .text{height: 58px;width: 100%;}
+.login .text a{font-size: 18px;color: #807e7e;line-height: 58px;display: inline-block;}
+.login .text a:nth-child(1){text-align: left;}
+.login .text a:nth-child(2){float: right;}
+.login .text a:hover{color: #9f0500;}
+.login .loginBtn{width: 100%;height: 50px;background-color: #b60909;color: #fff;font-size: 24px;line-height: 50px;cursor: pointer;}
+.login .third{height: 77px;border-top: 1px solid #ccc;margin-top: 40px;position: relative;text-align: center;}
+.login .third p{position: absolute;top:-14px;left: 37%;color: #807e7e;font-size: 18px;background-color: #f6f4f4;padding: 0 10px;}
+.login .third ul{margin-top: 40px;display: inline-block;}
+.login .third li{float: left;width: 25px;height: 25px;font-size: 0;margin: 0 12px;}
+.login .third img{width: 100%;height: 100%;}
+/*2. 注册页面*/
+i{display: inline-block;}
+.register .banner_big{background: url(../images/register_banner.jpg) no-repeat center top;height: 800px;}
+.register .banner_big h2{font-size: 26px;color: #fff;line-height: 50px;}
+.register .banner_big p{font-size: 24px;color: #999;line-height: 50px;}
+.register .main{margin-top: -91px;}
+/*官方推荐，注册和重置部分公用*/
+.wrap{width: 1100px;background-color: #f6f4f4;position: relative;padding: 0 50px 30px;}
+.wrap .pic{position: absolute;right: 0;bottom:282px;width: 480px;font-size: 0;height: 610px;overflow: hidden;}
+.wrap .title{height: 80px;border-bottom: 1px solid #ccc;padding-top: 10px;}
+.wrap .title h2{font-size: 26px;line-height: 50px;font-weight: normal;}
+.wrap .title div{font-size: 16px;margin-left: 20px;}
+.wrap .title i{display: inline-block;width: 20px;height: 20px;background: url(../images/register_icon.png) no-repeat ;margin-right: 10px;background-size: cover;}
+.wrap .title span{vertical-align: 5px;}
+.wrap dl{font-size: 18px;color: #666;line-height: 30px;margin-left: 20px;margin-top: 10px;}
+.wrap dd i{width: 10px;height: 10px;border-radius: 50%;background-color: #666;margin: 0 20px;}
+.wrap ul{width: 553px;height: 50px;margin: 10px 0;}
+.wrap ul li{float: left;width: 33%;height: 100%;background-color: #e5e5e5;color: #666;line-height: 50px;text-align: center;font-size: 18px;box-shadow: 0 0 5px rgba(0,0,0,.3);cursor: pointer;}
+.wrap ul .ac{background-color: #b60909;color: #fff;}
+.wrap input{height: 50px;background-color: #e5e5e5;padding: 0 20px;font-size: 16px;color: #999;}
+.wrap ::-webkit-input-placeholder {color:#999;}
+.wrap .name,.wrap .password,.wrap .code{position: relative;height: 50px;margin: 10px 0;}
+.wrap .ic{width: 50px;height: 50px;background-image: url(../images/register_icon.png);background-repeat: no-repeat;background-position:10px -273px ;position: absolute;left: 20px;top: 0;}
+.wrap .password .ic{background-position: 10px -342px;}
+.wrap .code .ic{background-position: 10px -411px;}
+.wrap .name input:nth-child(2),.wrap input:nth-child(2),.code input:nth-child(2){width: 450px;padding: 0 20px 0 80px;margin-right: 50px;}
+.wrap .name input:nth-child(3){width: 455px;}
+.wrap .password input:nth-child(3){width: 455px;}
+.wrap .code button{width: 150px;height: 50px;background-color: #b60909;color: #fff;font-size: 18px;}
+.wrap .submit{margin-top: 20px;}
+.wrap .submit label{text-align: center;width:550px;line-height: 50px;margin-right: 50px;display: inline-block;}
+.wrap .submit input{width: 17px;height: 17px;vertical-align: -4px;margin: 0 5px;}
+.wrap .submit span{font-size: 16px;}
+.wrap .complete{width: 300px;height: 50px;background-color: #b60909;color: #fff;font-size: 18px;cursor: pointer;}
+
+/*官方推荐，注册和重置公用*/
+.recommend {width: 100%;margin-top: 10px;font-size: 18px;color: #999;font-weight: normal;margin-bottom: 40px;}
+.recommend h4{height: 50px;line-height: 50px;}
+.recommend li{float: left;width: 287px;height: 210px;border: 2px solid #d3d1d1;background-color: #f6f6f6;margin-right: 11px;position: relative;}
+.recommend li span{position: absolute;bottom: 50px;text-transform: uppercase;}
+.recommend li span:nth-child(2){left: 105px;bottom: 25px;font-size: 16px;color: #666;}
+.recommend li span:nth-child(3){left: 100px;bottom: 10px;font-size: 10px;color: #bbb;}
+.recommend .more{margin-right: 0;text-align: center;line-height: 210px;}
+.recommend button{width:180px;height: 50px;background-color: #b60909;}
+.recommend button a{color: #fff;font-size: 18px;}
+
+/*3. 重置密码*/
+.reset .banner_big{background: url(../images/reset_banner.jpg) no-repeat center top;height: 800px;}
+.reset .banner_big h2{font-size: 34px;color: #fff;line-height: 50px;}
+.reset .banner_big p{font-size: 24px;color: #999;line-height: 50px;}
+.reset .main{margin-top: -91px;}
+.reset .tell,.reset .msg{position: relative;}
+.reset .tell input,.reset .code input,.reset .msg input{width: 305px;}
+.reset .tell select{position: absolute;left: 425px;top: 0;height: 50px;line-height: 50px;background-color: #e5e5e5;width: 124px;padding-left: 10px;color: #999;font-size: 16px;}
+.reset .code input{margin-right: 20px;}
+.reset .code span{display: inline-block;width: 124px;height: 50px;background: url(../images/reset_icon2.png) no-repeat center center #b60909;vertical-align:-20px;}
+.reset .msg input{margin-right: 17px;}
+.reset .msg button{width: 124px;height: 50px;background-color: #b60909;font-size: 14px;color: #fff;vertical-align: -2px;}
+.reset .complete{width: 550px;margin-top: 20px;}
+.reset .wrap .pic{bottom: 0;}

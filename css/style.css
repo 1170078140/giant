@@ -1,0 +1,79 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,input,option,select,textarea,option,button{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;color: #686565;cursor: pointer;}
+a:hover{color: #9f0500;}
+img,input,textarea,button,select{border: none;outline: none;}
+body{font-family: arial,"microsoft yahei";}
+.inner{width: 1200px;margin: 0 auto;height: 100%;}
+/*清楚浮动*/
+.clearfix:after{content: ".";clear: both;visibility: hidden;height: 0;display: block;}  /* 清除浮动 */
+.hide{display: none;}
+/*页面头部*/
+.headerWrap{padding-bottom: 84px;}
+.header{position: fixed;background-color: #fff;width: 100%;z-index: 100;height: 84px;}
+.header{box-shadow: 0 0 10px rgba(0,0,0,.4);}
+.header .log{width: 186px;height: 32px;font-size: 0;float: left;position: absolute;left: 0;top: 26px;}
+.header .inner{position: relative;height: 84px;}
+.header .nav{position: absolute;left: 290px;top: 7px;}
+.header .nav li{float: left;margin: 0 20px;height: 77px;line-height: 77px;}
+.header a{font-size: 16px;font-family: "microsoft yahei";}
+.ac{color: #b60909;}
+.header .icon{position: absolute;right: 0;top:34px;width: 150px;height: 37px;}
+.header .icon li{width: 25px;height: 25px;margin: 0 10px;float: left;}
+.header .icon li a{width: 100%;height: 100%;cursor: pointer;display: inline-block;}
+.header .icon li:nth-child(1) a{background-image: url(../images/head_icon_03.jpg);}
+.header .icon li:nth-child(2) a{background-image: url(../images/head_icon_05.jpg);}
+.header .icon li:nth-child(3) a{background-image: url(../images/head_icon_07.jpg);}
+
+/*页面底部*/
+.footer .f_main{background-color: #252525;padding-top: 40px;border-bottom: 2px solid #222;}
+.f_main .inner{height: 200px;}
+.f_main dl{float:left;width: 200px;line-height: 40px;margin-left: 10px;}
+.f_main dt{font-size: 18px;}
+.f_main dd a{font-size: 14px;}
+.f_main a:hover{color:#666;}
+.f_main a{color: #666;}
+.f_main .last{text-align: right;width: 140px;position: relative;}
+.f_main .last input{width: 150px;height: 27px;border: 1px solid #3f3f3f;position: absolute;top: 80px;right: 0;background-color: transparent;color: #4f4f4f;padding-left: 10px;padding-right: 37px;}
+.f_main .last .arrow{position: absolute;right: 0;top: 81px;width: 27px;height: 27px;background-color: #636363;color: #c4c4c4;text-align: center;line-height: 27px;font-family: consolas;font-size: 18px;}
+.f_main .last .arrow:hover{color:#c4c4c4;}
+/*bot区*/
+.footer .bot{height: 80px;background-color: #252525;color: #444;}
+.bot .inner{padding-left: 10px;position: relative;}
+.bot .copy{padding-top: 16px;}
+.copy li{line-height: 18px;font-size: 14px;float: left;}
+.copy span{padding: 0 5px;}
+.bot .bei{line-height: 18px;font-size: 14px;}
+.bot .icon{float: right;position: absolute;right: 0;top: 20px;}
+.bot .icon li{float: left;width: 36px;height: 36px;margin-right: 10px;background-size: cover;}
+.bot .icon li:nth-child(1){background-image: url(../images/qq_icon.png);}
+.bot .icon li:nth-child(2){background-image: url(../images/weixin_icon.png);}
+.bot .icon li:nth-child(3){background-image: url(../images/weibo_icon.png);}
+
+/*页面按钮*/
+.btn{width:122px;height:32px;background-color: #9f0500;text-align: center;line-height: 32px;font-size: 14px;border-radius: 16px;cursor: pointer;}
+.btn a{color: #fff;}
+
+/*banner大图*/
+.banner_big{overflow: hidden;}
+.banner_big .inner{position: relative;height: 100%;}
+.banner_big .rect{position: absolute;top:37%;left: -30%;z-index: 2;}
+.banner_big .rect .text{position: absolute;right: 12%;top:27%;text-transform: uppercase;width: 350px;height: 100px;text-align: left;}
+.banner_big h2{font-size: 52px;color: #fff;line-height: 50px;}
+.banner_big p{font-size: 26px;color: #999;line-height: 50px;}
+.banner_big .slider{position: absolute;left: 50%;top: 0;margin-left: -960px;height: 100%;}
+
+
+/*二级导航*/
+.subNav{height: 50px;background-color: #000;text-align: center;}
+.subNav ul{left: 50%;display: inline-block;}
+.subNav li{float: left;margin: 0 75px;}
+.subNav li a{font-size: 18px;color: #fff;line-height: 50px;height: 50px;}
+.subNav li a:hover{color: #b60909;}
+.subNav li .ac{color: #b60909;}
+
+
+/*版心部分  以及版心的标题*/
+.about_main{padding-top: 80px;padding-bottom: 120px;}
+.main_title{text-align: center;font-size: 24px;color: #161717;height: 27px;line-height: 27px;}
+.main_sub_title{text-align: center;font-size: 18px;line-height: 20px;color: #666;text-transform: uppercase;font-weight: normal;font-family: arial;margin-bottom: 40px;}

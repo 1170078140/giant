@@ -1,0 +1,153 @@
+/*-------------------------------------产品中心页-----------------------------------*/
+/*轮播图*/
+/*容器大小设置*/
+.product .swiper-container{width: 100%;height: 100%;overflow: hidden;}
+/*分页器间距*/
+.product .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {margin: 0 8px;}
+/*分页器大小以及样式*/
+.product .swiper-pagination-bullet{width: 20px;height: 10px;border-radius: 0;background-color: #0d1b6f;opacity: 0.5;}
+/*选中的样式*/
+.product .swiper-pagination-bullet-active{width: 50px;opacity: 1;}
+
+
+/*新品推荐-轮播箭头*/
+.new_show{position: relative;}
+.new_show .swiper-button-next {background: url(../images/infor_arrow.png) no-repeat right 0 top 0;right:-100px; top: 350px;width: 38px;height: 72px;background-size: cover;}    
+.new_show .swiper-button-prev {background: url(../images/infor_arrow.png) no-repeat;left: -100px;top: 350px;width: 38px;height: 72px;background-size: cover;}
+
+/*矩形区域*/
+.banner .inner{position: absolute;top: 0;left: 50%;margin-left: -600px;}
+.banner{height: 500px;position: relative;text-align: center;}
+.banner_big .rect{top:33%;}
+.banner_big .rect .text{top: 25%;right: 15%;}
+
+/*页面标题*/
+.title{text-align: center;margin-bottom: 40px;}
+.title h3{line-height: 40px;height: 40px;font-size: 30px;font-weight: normal;}
+.title h3 span:nth-child(1){color: #000;}
+.title h3 span:nth-child(2){color: #999;}
+.title p{font-size: 17px;color: #999;line-height: 20px;height: 20px;}
+
+.product .main{padding-top: 40px;}
+.product .new_show{padding: 80px 0 50px 0;}
+
+/*产品列表*/
+.list{background-color: #f3f3f3;width: 100%;}
+.list .inner{padding: 20px 0;}
+.list h3{height: 50px;line-height: 50px;font-size: 22px;}
+.list li{float: left;width: 30%;height: 500px;border: 2px solid #d3d1d1;background-color: #fff;position: relative;}
+.list li:hover{border-color: #b60909;}
+.list li:nth-child(3n-1){margin: 0 3%;}
+.list img{width: 100%;}
+.list p{text-align: center;height: 30px;line-height: 30px;font-size: 18px;}
+.list .name{color: #666;font-weight: bold;}
+.list .name span{color: #b60909;font-size: 22px;}
+.list .Ename{color: #bbb;}
+.list .price{color: #b60909;font-weight: bold;font-size: 24px;}
+
+/*配件*/
+#fittings li{height: 210px;overflow: hidden;width: 280px;margin-right: 10px;margin-left: 0;margin-bottom: 10px;position: relative;}
+#fittings li span{position: absolute;left: 0;top:0;width: 280px;height: 60px;background-color: rgba(0,0,0,0.4);padding-top: 150px;display: none;}
+#fittings li span p{color: #fff;font-size: 16px;font-weight: normal;height: 26px;line-height: 26px;}
+#fittings li:hover{border-color:#d3d1d1;}
+#fittings li:hover span{display: block;}
+#fittings{padding-bottom: 80px;}
+
+/*-------------------------------------产品详情页-----------------------------------*/
+.product_details .main{padding-bottom: 40px;}
+.product_details .path{height: 50px;line-height: 50px;}
+.product_details .picList{float: left;margin-right: 38px;}
+.picList ul{border: 1px solid #ccc;width: 570px;height: 515px;overflow: hidden;}
+.picList ul li img{width: 100%;}
+.productText{float: left;width: 590px;overflow: hidden;}
+.productText h3{line-height: 50px;height: 50px;font-size: 24px;}
+.productText p{height: 26px;line-height: 26px;font-size: 16px;}
+.productText .sale{color: red;}
+.productText>div {width: 100%;height: 40px;}
+.productText .priceBox{width: 100%;height: 80px;background-color: #f1f1f1;margin: 20px 0;line-height: 80px;}
+.productText .price{font-size: 26px;color: #b30601;font-weight: bolder;}
+.productText .tags{width: 80px;float: left;text-align: right;margin-right: 20px;}
+.productText .con{float: left;}
+.productText li{float: left;padding: 3px 8px;border: 1px solid #C4C4C4;margin-right: 15px;}
+.productText ul li:hover{border-color: #b30601;cursor: pointer;}
+.productText ul .active{border-color: #b30601;}
+.productText .num{position: relative;}
+.productText .num input{width: 50px;height: 30px;border: 1px solid #C4C4C4;padding-left: 25px;}
+.productText .num span{width: 15px;height: 14px;line-height: 14px;border: 1px solid #C4C4C4;position: absolute;text-align: center;cursor: pointer;font-size: 12px;}
+.productText .num span:nth-child(2){right: 0;top: 0;border-bottom: none;height: 15px;}
+.productText .num span:nth-child(3){right: 0;bottom: 0;}
+.productText .support{padding: 20px 0 10px 0;border-top: 1px solid #C4C4C4;border-bottom: 1px solid #C4C4C4;margin-top: 15px;}
+.productText .support li{border: none;cursor: none;}
+.productText .clickBtn{width: 180px;height: 40px;line-height: 40px;margin-right: 20px;margin-top: 25px;cursor: pointer;background-color: #666;color: #fff;}
+.productText .buy{background-color: #b30601;}
+.product_details h3{height: 45px;line-height: 45px;}
+
+/*-------------------------------------购物车-----------------------------------*/
+.shop_car .main{padding: 40px 0;}
+.progressBar{width: 100%;height: 40px;}
+.progressBar ul{float: right;width: 30%;}
+.progressBar li{float: left;width: 33.3%;text-align: center;font-size: 14px;}
+.progressBar .ac{color: #00a0e9;}
+.progressBar .no{color: #d9d9d9;}
+.progressBar li img{width: 100%;}
+.shopTitle{margin-bottom: 20px;}
+.shopTitle>div{float: left;font-size: 22px;height: 55px;}
+.shopTitle>div .Ename{font-size: 14px;}
+.shopTitle>div:nth-child(2){border-left: 2px solid #9f0500;line-height: 55px;margin-left: 10px;padding-left: 10px;color: #9f0500;}
+table{border-collapse: collapse;}
+table thead{background-color: #e6e6e6;} 
+table thead th{height: 36px;line-height: 36px;}
+tbody{background-color: #f7f7f7;font-size: 14px;color: #666;}
+tbody .blank{height: 20px;}
+tbody tr{border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;}
+tbody tr:hover{background-color: #f5e6e5;}
+tbody td{padding: 10px;}
+tbody .tui i{vertical-align: -4px;margin-right: 10px;}
+tbody .tui{color: #6679b3;margin-top: 10px;}
+tbody button{width: 20px;height: 22px;background-color: #fff;border: 1px solid #ccc;}
+tbody .num input{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;width: 30px;height: 20px;background-color: #fff;text-align: center;}
+tbody .num p{text-align: center;margin-top: 10px;}
+tbody .sum{font-size: 16px;color: #000;font-weight: bolder;}
+tbody .action li{cursor: pointer;margin: 10px 0;}
+table .box{width: 15px;height: 15px;display: inline-block;}
+.account:hover{background-color: #fff;}
+.account{background-color: #fff;border: 1px solid #ccc;font-size: 12px;}
+.account .act li{float: left;margin-right: 15px;cursor: pointer;}
+tbody .accountBtn{padding: 0;}
+.accountBtn a{display:block;float: right;width: 70%;height: 55px;background-color: #9f0500;line-height: 55px;text-align: center;color: #fff;font-size: 18px;font-weight: bolder;}
+.sumMoney span{font-size: 14px;color: #9f0500;font-weight: bolder;}
+
+/*-------------------------------------提交订单-----------------------------------*/
+.order .main{padding: 40px 0 100px 0}
+.orderMain h2{font-weight: normal;font-size: 24px;height: 50px;line-height: 50px;}
+.orderMain .info{padding-left: 20px;}
+.orderMain li{padding: 25px 0;}
+.orderMain .botLine{border-bottom: 1px solid #ccc;}
+.orderMain .sTitle{font-size: 16px;height: 30px;line-height:30px;margin-bottom: 12px;}
+.orderMain .sTitle h4{float: left;}
+.orderMain .sTitle a{float:right;color: #008bcc;font-size: 14px;}
+.orderMain .fLeft{float: left; margin-right: 20px;}
+.detailInfo{padding-left: 30px;}
+.detailInfo>div{height: 28px;line-height: 28px;}
+.orderMain .boxBtn{border: 2px solid #666;padding: 0 15px;}
+.orderMain .boxBtn:hover{border-color: #9f0500;}
+.orderMain .active{border-color: #9f0500;}
+.orderMain .send{width: 20%;}
+.orderMain table{margin-left: 30px;}
+.orderMain tr:hover{background-color: #f7f7f7;}
+.orderMain .notes input{width: 400px;padding: 5px;border: 1px solid #ccc;margin-right: 20px;}
+.orderMain span{font-size: 14px;}
+.orderMain .tRight{padding: 0;text-align: right;height: 26px;line-height: 26px;background-color: #f4f4f4;}
+.orderMain .tRight span{width: 70px;display: inline-block;padding-right: 15px;}
+.orderMain .subOrder{float: right;width: 160px;height: 50px;line-height:50px;margin: 20px;background-color: #9f0500;color: #fff;font-weight: bolder;font-size: 20px;cursor: pointer;}
+
+/*-------------------------------------订单提交成功-----------------------------------*/
+.order_success .main{padding: 40px 0 80px 0;}
+.order_success .success{padding:100px;}
+.success>div{float: left;}
+.success>div:nth-child(1){margin-right: 50px;margin-top: 10px;}
+.order_success .text h1{font-size: 36px;color: #9f0500;font-weight: normal;height: 60px;line-height: 60px;}
+.order_success .text li{float: left;margin-top: 40px;margin-right: 30px;font-size: 16px;}
+.order_success .goBuy a{display: inline-block; width: 190px;height: 50px;text-align: center;color: #fff;line-height: 50px;background-color: #9f0500;vertical-align: -1px;margin: 0 30px;}
+.order_success .words{height: 50px;line-height: 50px;}
+.order_success .goOrder a{color: #000cfb;}
